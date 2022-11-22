@@ -20,8 +20,16 @@
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂|
+| 2    |                 |      |                                    |
+| 3    |                 |      |                                    |
+| 4    |                 |      |                                    |
+| 5    |                 |      |                                    |
+| 6    |                 |      |                                    |
+| 7    |                 |      |                                    |
+| 8    |                 |      |                                    |
+| 9    |                 |      |                                    |
+| 10   |                 |      |                                    |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
@@ -30,7 +38,35 @@
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 2.1  |              |         |                   |
+| 3.1  |              |         |                   |
+| 4.1  |              |         |                   |
+| 5.1  |              |         |                   |
+| 6.1  |              |         |                   |
+| 7.1  |              |         |                   |
+| 8.1  |              |         |                   |
+| 9.1  |              |         |                   |
+| 10.1 |              |         |                   |
+| 11.1 |              |         |                   |
+| 12.1 |              |         |                   |
+| 13.1 |              |         |                   |
+| 14.1 |              |         |                   |
+| 15.1 |              |         |                   |
+| 16.1 |              |         |                   |
+| 17.1 |              |         |                   |
+| 18.1 |              |         |                   |
+| 19.1 |              |         |                   |
+| 20.1 |              |         |                   |
+| 21.1 |              |         |                   |
+| 22.1 |              |         |                   |
+| 23.1 |              |         |                   |
+| 24.1 |              |         |                   |
+| 25.1 |              |         |                   |
+| 26.1 |              |         |                   |
+| 27.1 |              |         |                   |
+| 28.1 |              |         |                   |
+| 29.1 |              |         |                   |
+| 30.1 |              |         |                   |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
