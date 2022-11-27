@@ -1,12 +1,12 @@
 # Projekt-Dokumentation
 
-☝️ Alle Text-Stellen, welche mit einem ✍️ beginnen, können Sie löschen, sobald Sie die entsprechende Stellen ausgefüllt haben.
 
-✍️ Ihr Gruppenname und Ihre Nachnamen
+
+Chocolate(Jesenko, Lucena, von Rogall, Marku, Greub)
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
+|27.11.2022| 0.0.1   |Heute haben wir den ersten Teil unserer Projektdokumentation geschrieben und ein Usecase Diagramm erstellt.|
 |       | ...     |                                                              |
 |       | 1.0.0   |                                                              |
 
@@ -14,7 +14,7 @@
 
 ### 1.1 Ihr Projekt
 
-✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
+Wir erstellen ein kleines Spiel in dem man über Hindernisse springen muss.
 
 ### 1.2 User Stories
 
@@ -31,7 +31,7 @@
 | 9    |kann             |Qualität  |Als User möchte ich das Spiel schwerer wird desto weiter ich komme.|
 | 10   |kann             |Qualirät |Als User möchte ich am Anfang einen Schwierigkeitsgrad aussuchen können, damit ich sofort eine Herausforderung haben kann|
 
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
+
 
 ### 1.3 Testfälle
 
@@ -57,7 +57,6 @@
 | 10.1 |   Programm gestartet, Auf "Play" gedrückt  |  Name wird eingegeben  | Fenster öffnet sich, indem zwischen den verschiedenen Schwierigkeitsgraden ausgesucht werden kann. |
 
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
 ### 1.4 Diagramme
 
@@ -67,8 +66,16 @@
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A  |29.11.2022|Erik|1. Userstory|30 min|
+| 2.A  |29.11.2022|Marek|2. Userstory|60min|
+| 3.A  |29.11.2022|Stefan|3. Userstory|60min|
+| 4.A  |06.11.2022|Samuel|4. Userstory|30min|
+| 5.A  |06.11.2022|Erik|5. Userstory|60min|
+| 6.A  |06.11.2022|Marek|6.Userstory| 30min|
+| 7.A  |13.11.2022|Manuel|7. Userstory|60min|
+| 8.A  |13.11.2022|Stefan|8. Userstory|60min|
+| 9.A  |13.11.2022|Samuel|9. Userstory|60min|
+|10.A  |13.11.2022|Manuel|10. Userstory|60min|
 
 Total: 
 
@@ -78,7 +85,7 @@ Total:
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Wir werden das Programm mit diesen Userstorys umsetzen, weil wir uns nochnicht so mit Windows Forms in C# auskennen.
 
 ## 4 Realisieren
 
