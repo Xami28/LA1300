@@ -20,11 +20,11 @@
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |muss             |Funktional|Als User möchte ich mich bewegen können, damit ich das Spiel kontrollieren kann.|
+| 1    |muss             |Funktional|Als User möchte ich das Spiel starten können, damit ich das Spiel spielen kann.|
 | 2    |muss             |Funktional|Als User möchte ich Springen können, damit ich über Hindernisse Springen kann.|
-| 3    |muss             |Funktional|Als User möchte ich das es Objekte gibt, über die ich Springen kann, damit das Spiel interessanter ist.|
+| 3    |muss             |Funktional|Als User möchte ich, dass es Objekte gibt, über die ich Springen kann, damit das Spiel interessanter ist.|
 | 4    |muss             |Funktional|Als User möchte ich das Spiel neu startet, wenn ich ein Objekt berühre, damit es schwieriger wird.|
-| 5    |muss             |Funktional|Als User möchte ich das immer neu Objekte auf mich zukommen, damit das Spiel spannend ist.|
+| 5    |muss             |Funktional|Als User möchte ich, dass immer neue Objekte auf mich zukommen, damit das Spiel spannend ist.|
 | 6    |muss             |Funktional|Als User möchte ich, dass ich sehen kann, wie weit ich gekommen bin, damit ich weiss wie gut ich war.|
 | 7    |kann             |Qualität  |Als User möchte ich das ich sehen kann, was meine besten Versuche waren.|
 | 8    |kann             |Qualität  |Als User möchte ich, dass ich am Anfang meinen Namen eingeben kann, damit ich zwischen versuchen von verschiedenen Personen unterscheiden kann|
@@ -37,36 +37,25 @@
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| 2.1  |              |         |                   |
-| 3.1  |              |         |                   |
-| 4.1  |              |         |                   |
-| 5.1  |              |         |                   |
-| 6.1  |              |         |                   |
-| 7.1  |              |         |                   |
-| 8.1  |              |         |                   |
-| 9.1  |              |         |                   |
-| 10.1 |              |         |                   |
-| 11.1 |              |         |                   |
-| 12.1 |              |         |                   |
-| 13.1 |              |         |                   |
-| 14.1 |              |         |                   |
-| 15.1 |              |         |                   |
-| 16.1 |              |         |                   |
-| 17.1 |              |         |                   |
-| 18.1 |              |         |                   |
-| 19.1 |              |         |                   |
-| 20.1 |              |         |                   |
-| 21.1 |              |         |                   |
-| 22.1 |              |         |                   |
-| 23.1 |              |         |                   |
-| 24.1 |              |         |                   |
-| 25.1 |              |         |                   |
-| 26.1 |              |         |                   |
-| 27.1 |              |         |                   |
-| 28.1 |              |         |                   |
-| 29.1 |              |         |                   |
-| 30.1 |              |         |                   |
+| 1.1  |   Programm gestartet  |    Auf "Play" drücken     |  Spiel beginnt       |
+| 1.2  |   Programm gestartet  |    Auf "Play" drücken     |  Spieler erscheint   |
+| 2.1  |   Spiel gestartet     |    Auf "Jump" drücken     |  Charakter springt   |
+| 3.1  |   Spiel gestartet     |    Auf "Play" drücken     |  Objekte erscheinen  |
+| 3.2  |   Spiel gestartet     |    Auf "Play" drücken     |  Die Objekte bewegen sich von links nach rechts      |
+| 3.3  |   Speil gestartet     |    Auf "Play" drücken     |  Für jedes übersprungene Objekt erhöht sich der Score um 1 |
+| 4.1  |   Spiel gestartet, Objekte erschienen    |   Spieler berührt ein Objekt    |    Score wird zurückgesetzt       |
+| 4.2  |   Spiel gestartet, Objekte erschienen    |   Spieler berührt ein Objekt    |    "Game Over" Screen erscheint   |
+| 5.1  |   Spiel gestartet, Objekte erschienen    |   Spieler überspringt das 5. Objekt   |  Es erscheinen nun immer mehr Objekte  |
+| 6.1  |   Spiel gestartet, Objekte erschienen    |   Spieler berührt ein Objekt    |    Die erreichte Punktzahl wird angezeigt    |
+| 7.1  |   Spiel gestartet, Objekte erschienen, mehr übersprungene Objekte als der aktuelle Highscore    |   Spieler berührt ein Objekt    |   Neuer Highscore wird angezeigt   |
+| 7.2  |   Spiel gestartet, Objekte erschienen, weniger übersprungene Objekte als der aktuelle Highscore    |   Spieler berührt ein Objekt    |   Kein neuer Highscore wird abgespeichert   |
+| 8.1 |    Programm gestartet   |   Auf "Play" drücken     |  Eingabe für den Namen öffnet sich |
+| 8.2 |    Spiel gestartet, Objekte erschienen    |   Spieler berührt ein Objekt    |    Die erreichte Punktzahl wird neben dem zuvor eingegebenen Namen angezeigt  |
+| 8.3 |    Spiel gestartet, Objekte erschienen, mehr übersprungene Objekte als der aktuelle Highscore   |   Spieler berührt ein Objekt    |   Der Highscore wird neben dem Namen der Person eingetragen    |
+| 9.1 |    Spiel gestartet, Objekte erschienen    |   Spieler überspringt das 10. Objekt  |  Geschwindigkeit der Objekte wird erhöht      |
+| 9.2 |    Spiel gestartet, Objekte erschienen    |   Spieler überspringt das 20. Objekt  |  Geschwindigkeit der Objekte wird erneut erhöht    |
+| 10.1 |   Programm gestartet, Auf "Play" gedrückt  |  Name wird eingegeben  | Fenster öffnet sich, indem zwischen den verschiedenen Schwierigkeitsgraden ausgesucht werden kann. |
+
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
