@@ -20,16 +20,16 @@
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂|
-| 2    |                 |      |                                    |
-| 3    |                 |      |                                    |
-| 4    |                 |      |                                    |
-| 5    |                 |      |                                    |
-| 6    |                 |      |                                    |
-| 7    |                 |      |                                    |
-| 8    |                 |      |                                    |
-| 9    |                 |      |                                    |
-| 10   |                 |      |                                    |
+| 1    |muss             |Funktional|Als User möchte ich mich bewegen können, damit ich das Spiel kontrollieren kann.|
+| 2    |muss             |Funktional|Als User möchte ich Springen können, damit ich über Hindernisse Springen kann.|
+| 3    |muss             |Funktional|Als User möchte ich das es Objekte gibt, über die ich Springen kann, damit das Spiel interessanter ist.|
+| 4    |muss             |Funktional|Als User möchte ich das Spiel neu startet, wenn ich ein Objekt berühre, damit es schwieriger wird.|
+| 5    |muss             |Funktional|Als User möchte ich das immer neu Objekte auf mich zukommen, damit das Spiel spannend ist.|
+| 6    |muss             |Funktional|Als User möchte ich, dass ich sehen kann, wie weit ich gekommen bin, damit ich weiss wie gut ich war.|
+| 7    |kann             |Qualität  |Als User möchte ich das ich sehen kann, was meine besten Versuche waren.|
+| 8    |kann             |Qualität  |Als User möchte ich, dass ich am Anfang meinen Namen eingeben kann, damit ich zwischen versuchen von verschiedenen Personen unterscheiden kann|
+| 9    |kann             |Qualität  |Als User möchte ich das Spiel schwerer wird desto weiter ich komme.|
+| 10   |kann             |Qualirät |Als User möchte ich am Anfang einen Schwierigkeitsgrad aussuchen können, damit ich sofort eine Herausforderung haben kann|
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
