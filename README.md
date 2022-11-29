@@ -63,7 +63,8 @@ Wir erstellen ein kleines Spiel in dem man über Hindernisse springen muss.
 
 ### 1.4 Diagramme
 
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
+![T-Rex Game Use Case Diagramm](https://user-images.githubusercontent.com/110893302/204498597-b36ae964-814b-4370-ae12-2c1ff8242d69.png)
+
 
 ## 2 Planen
 
