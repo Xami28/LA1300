@@ -7,7 +7,7 @@ Chocolate(Jesenko, Lucena, von Rogall, Marku, Greub)
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |27.11.2022| 0.0.1   |Heute haben wir den ersten Teil unserer Projektdokumentation geschrieben und ein Usecase Diagramm erstellt.|
-|       | ...     |                                                              |
+| 29.11.2022| 0.0.2| Wir haben mit dem Programmieren gestartet. Wir haben den Startbildschirm und eine Spielfigur die wir bewegen können programmiert.|               
 |       | 1.0.0   |                                                              |
 
 ## 1 Informieren
@@ -95,9 +95,9 @@ Wir werden das Programm mit diesen Userstorys umsetzen, weil wir uns nochnicht s
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
-
+| 1.A  | 29.11 | Marek, Samuel| 60min      | 30min             |
+| 2.A  | 29.11 | Erik, Stefan, Manuel      | 60min|90min       |
+|
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
 ## 5 Kontrollieren
