@@ -10,6 +10,7 @@ Chocolate(Jesenko, Lucena, von Rogall, Marku, Greub)
 |29.11.2022| 0.3.0| Wir haben mit dem Programmieren gestartet. Wir haben den Startbildschirm und eine Spielfigur, die wir bewegen können, programmiert.|
 |06.12.2022| 0.7.0|Heute haben wir zuerst Plattformen erstellt, auf die die Spielfigur springen kann, danach haben wir noch mehrere Level hinzugefügt.|
 |13.12.2022| 1.0.0|Heute haben wir an unserer Präsentation gearbeitet und das Spiel grafisch noch schöner gemacht.|
+|20.12.2022| 1.0.0| Heute haben wir die Dokumentation fertig geschrieben und unseren Lernbericht gemacht.|
 
 ## 1 Informieren
 
