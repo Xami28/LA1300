@@ -7,7 +7,8 @@ Chocolate(Jesenko, Lucena, von Rogall, Marku, Greub)
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |27.11.2022| 0.0.1   |Heute haben wir den ersten Teil unserer Projektdokumentation geschrieben und ein Usecase Diagramm erstellt.|
-| 29.11.2022| 0.0.2| Wir haben mit dem Programmieren gestartet. Wir haben den Startbildschirm und eine Spielfigur die wir bewegen können programmiert.|               
+|29.11.2022| 0.0.2| Wir haben mit dem Programmieren gestartet. Wir haben den Startbildschirm und eine Spielfigur die wir bewegen können programmiert.|
+|06.12.2022| 0.0.3|Heute haben wir zuerst platformen erstellt auf die die Spielfigur springen kann, danach haben wir noch mehrere Level hinzugefügt.|
 |       | 1.0.0   |                                                              |
 
 ## 1 Informieren
