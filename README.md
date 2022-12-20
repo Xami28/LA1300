@@ -162,14 +162,6 @@ Wir haben uns dazu entschieden das man in unserem spiel durch ein Labürint hind
 
 Das Fazit zum Testprotokoll ist, dass es zwar viele Testfälle gibt die nicht funktionieren, dies ist aber nicht relevant, weil viele davon Testfälle für die alte version unseres Spiels sind und das Spielerlebniss nicht beeinträchtigt wird das Spiel ist Spielbar und Funktioniert. Das einzige was nicht Funktioniert sind kleine Qualitätsfunktionen.
 
-### 5.2 Exploratives Testen
-
-| BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
-| ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |              |         |                   |                      |
-| ...  |              |         |                   |                      |
-
-✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
 
 ## 6 Auswerten
 
