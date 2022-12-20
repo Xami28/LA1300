@@ -5,10 +5,10 @@ Chocolate (Jesenko, Marku, Greub, von Rogall, Losada)
 
 Wir haben im Lernatelier den Auftrag bekommen, ein Programm mit Windows Forms zu schreiben.
 ## Was haben wir gelernt?
-Wir haben gelernt, wie wir `Key Inputs` in Windows Forms benutzen um unsere Spielfigur bewegen zu können.
+Wir haben gelernt, wie wir `Key Inputs` in Windows Forms benutzen, um unsere Spielfigur bewegen zu können.
 ## Beschreibung
 Wir haben in unserem Programm die Funktion `keydown` und `keyup` benutzt.
-Die Funktion `keydown` prüft ob eine Taste auf der Tastatur heruntergedrückt wird. Die Funktion `keyup` überprüft ob eine Taste gerade nicht heruntergedrückt wird. Wir haben das in unserem Programm so eingebaut, dass wir bool's für alle Tasteninputs haben, die wenn sie dann `true` sind die Spielfigur bewegen.
+Die Funktion `keydown` prüft, ob eine Taste auf der Tastatur heruntergedrückt wird. Die Funktion `keyup` überprüft, ob eine Taste gerade nicht heruntergedrückt wird. Wir haben das in unserem Programm so eingebaut, dass wir Bool's für alle Tasteninputs haben, die, wenn sie dann `true` sind, die Spielfigur bewegen.
 ```C#
 private void keydown(object sender, KeyEventArgs e)
         {
@@ -24,7 +24,7 @@ private void keyup(object sender, KeyEventArgs e)
             if (e.KeyCode == Keys.D) { right = false; }
         }
 ```
-_Sobald nun die Leertaste gedrückt wird, wird wenn `onground` auf `true` ist `jump` auch auf `true` gesetzt, so dass ein Sprung ausgeführt werden kann. Wenn die Taste losgelassen wird, wird `jump` wieder auf `false` gesetzt. Das selbe passiert mit den Tasten `a` und `d`._
+_Sobald nun die Leertaste gedrückt wird, wird, wenn `onground` auf `true` ist, `jump` auch auf `true` gesetzt, sodass ein Sprung ausgeführt werden kann. Wenn die Taste losgelassen wird, wird `jump` wieder auf `false` gesetzt. Dasselbe passiert mit den Tasten `a` und `d`._
 
 ```C#
 this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keydown);
@@ -35,7 +35,7 @@ _Damit dies jedoch funktioniert, muss zuerst noch ein Event in WinForms erstellt
 https://user-images.githubusercontent.com/110893394/208632545-e358f30a-5b5d-488c-90c9-123a98326b3a.mp4
 
 
-_Wie man im Video sehen kann, wird, sobald eine Taste gedrückt wird, der Dino nun nach rechts oder links bewegt oder springt._
+_Wie man im Video sehen kann, wird, sobald eine Taste gedrückt wird, der Dino nach rechts oder links bewegt oder springt._
 
 ## Verifikation
 
