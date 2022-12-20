@@ -32,7 +32,9 @@ this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyup);
 ```
 _Damit dies jedoch funktioniert, muss zuerst noch ein Event in WinForms erstellt werden._
 
-![video](https://github.com/Xami28/LA1300/blob/f%C3%BChrer/LA1300_Video.mp4)
+https://user-images.githubusercontent.com/110893394/208632545-e358f30a-5b5d-488c-90c9-123a98326b3a.mp4
+
+
 _Wie man im Video sehen kann, wird, sobald eine Taste gedrückt wird, der Dino nun nach rechts oder links bewegt oder springt._
 
 ## Verifikation
