@@ -29,7 +29,15 @@ Wir erstellen ein kleines Spiel in dem man über Hindernisse springen muss.
 | 7    |kann             |Qualität  |Als User möchte ich das ich sehen kann, was meine besten Versuche waren.|
 | 8    |kann             |Qualität  |Als User möchte ich, dass ich am Anfang meinen Namen eingeben kann, damit ich zwischen versuchen von verschiedenen Personen unterscheiden kann|
 | 9    |kann             |Qualität  |Als User möchte ich das Spiel schwerer wird desto weiter ich komme.|
-| 10   |kann             |Qualirät |Als User möchte ich am Anfang einen Schwierigkeitsgrad aussuchen können, damit ich sofort eine Herausforderung haben kann|
+| 10   |kann             |Qualität  |Als User möchte ich am Anfang einen Schwierigkeitsgrad aussuchen können, damit ich sofort eine Herausforderung haben kann|
+| 11   |kann             |Qualität  |Als User möchte ich am Anfang einen Bildschirm, bei dem ich verschiedene Auswahlmöglichkeiten habe wie Spielen, Optionen, Steuerung und Zurück, damit ich auch noch mehr über das Spiel herausfinden kann und weil ich das schöner finde.
+| 12   |kann             |Qualität  |Als User möchte ich das es mehrere Level gibt, weil ich das als User bevorzuge|
+| 13   |kann             |Qualität  |Als User möchte ich das ich wenn ich auf "Controls" drücke, dass mir die Steuerung des Spiels angezeigt wird, damit ich weiss welche Knöpfe ich drücken muss um den Spieler zu bewegen.|
+| 14   |kann             |Qualität  |Als User möchte ich wenn ich auf "Options" drücke das ich wählen kann wie ich heisse und wie ich das Spielfenster einstellen will.|
+| 15   |kann             |Qualität  |Als User möchte ich das wenn ich auf "Exit" drücke, dass sich dann das spiel schliesst damit ich eine schönere option habe das Spiel zu schliessen.|
+| 16   |kann             |Qualität  |Als User möchte ich das wenn ich auf "Credits" drücke, dass mir die Credits angezeigt werden damit ich das Team sehen kann das dieses Spiel entwickelt hat.|
+
+
 
 
 
@@ -57,7 +65,13 @@ Wir erstellen ein kleines Spiel in dem man über Hindernisse springen muss.
 | 8.3 |    Spiel gestartet, Objekte erschienen, mehr übersprungene Objekte als der aktuelle Highscore   |   Spieler berührt ein Objekt    |   Der Highscore wird neben dem Namen der Person eingetragen    |
 | 9.1 |    Spiel gestartet, Objekte erschienen    |   Spieler überspringt das 10. Objekt  |  Geschwindigkeit der Objekte wird erhöht      |
 | 9.2 |    Spiel gestartet, Objekte erschienen    |   Spieler überspringt das 20. Objekt  |  Geschwindigkeit der Objekte wird erneut erhöht    |
-| 10.1 |   Programm gestartet, Auf "Play" gedrückt  |  Name wird eingegeben  | Fenster öffnet sich, indem zwischen den verschiedenen Schwierigkeitsgraden ausgesucht werden kann. |
+|10.1 |   Programm gestartet, Auf "Play" gedrückt  |  Name wird eingegeben  | Fenster öffnet sich, indem zwischen den verschiedenen Schwierigkeitsgraden ausgesucht werden kann. |
+|11.1 |Programm wurde gestartet |" "| Fenster mit verschiedenen Optionen wird angezeigt.|
+|12.1 |Im Startfenster wurde auf "Play" gedrückt|" "| Fenster mit der Level auswahl wird angezeigt.|
+|13.1 |Startfenster wurde geöfnet|Auf "Controls" gedrückt| Fenster mit der Steuerung des Spiels wird angezeigt.|
+|14.1 |Startfenster wurde geöfnet|Auf "Options" gedrückt| Fenster mit Namenseingabe und Spielfenster einstellung wird angezeigt.|
+|15.1 |Startfenster wurde geöfnet|Auf "Exit" gedrückt| Spiel wird beendet.|
+|16.1 |Startfenster wurde geöfnet|Auf "Credits" gedrückt| Fenster mit den Entwicklern wird angezeigt.|
 
 
 
@@ -73,13 +87,20 @@ Wir erstellen ein kleines Spiel in dem man über Hindernisse springen muss.
 | 1.A  |29.11.2022|Erik|1. Userstory|30 min|
 | 2.A  |29.11.2022|Marek|2. Userstory|60min|
 | 3.A  |29.11.2022|Stefan|3. Userstory|60min|
-| 4.A  |06.11.2022|Samuel|4. Userstory|30min|
-| 5.A  |06.11.2022|Erik|5. Userstory|60min|
-| 6.A  |06.11.2022|Marek|6.Userstory| 30min|
-| 7.A  |13.11.2022|Manuel|7. Userstory|60min|
-| 8.A  |13.11.2022|Stefan|8. Userstory|60min|
-| 9.A  |13.11.2022|Samuel|9. Userstory|60min|
-|10.A  |13.11.2022|Manuel|10. Userstory|60min|
+|11.A  |29.11.2022|Marek|11. Userstory|20min|
+| 4.A  |06.12.2022|Samuel|4. Userstory|30min|
+| 5.A  |06.12.2022|Erik|5. Userstory|60min|
+| 6.A  |06.12.2022|Marek|6.Userstory| 30min|
+|12.A  |06.12.2022|Marek|12.Userstory|90min|
+| 7.A  |13.12.2022|Manuel|7. Userstory|60min|
+| 8.A  |13.12.2022|Stefan|8. Userstory|60min|
+| 9.A  |13.12.2022|Samuel|9. Userstory|60min|
+|10.A  |13.12.2022|Manuel|10. Userstory|60min|
+|13.A  |13.12.2022|Marek|13. Userstory|60min|
+|14.A  |13.12.2022|Marek|14. Userstory|30min|
+|15.A  |13.12.2022|Marek|15. Userstory|20min|
+|16.A  |13.12.2022|Marek|16. Userstory|10min|
+
 
 Total: 
 
@@ -89,16 +110,25 @@ Total:
 
 ## 3 Entscheiden
 
-Wir werden das Programm mit diesen Userstorys umsetzen, weil wir uns nochnicht so mit Windows Forms in C# auskennen.
+Wir haben uns dazu entschieden das man in unserem spiel durch ein Labürint hindurch springen muss, deswegen passen nicht mehr alle userstorys zu unserem Programm.
 
 ## 4 Realisieren
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  | 29.11 | Marek, Samuel| 60min      | 30min             |
+| 1.A  | 29.11 | Marek, Samuel| 30min      | 30min             |
 | 2.A  | 29.11 | Erik, Stefan, Manuel      | 60min|90min       |
-|
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
+|11.A  | 29.11 | Marek, Samuel| 20min      | 25min             |
+| 3.A  | 06.12 | Stefan, Marek | 60min     | 70min             |
+| 4.A  | 06.12 | Marek         | 30min     | 60min             |
+| 9.A  | 06.12 | Marek         | 60min     | 90min             |
+|12.A  | 06.12 | Marek         | 90min     | 60min             |
+|14.A  | 13.12 | Marek         | 60min     | 20min             |
+|15.A  | 13.12 | Marek         | 20min     | 20min             |
+
+
+
+
 
 ## 5 Kontrollieren
 
@@ -106,8 +136,33 @@ Wir werden das Programm mit diesen Userstorys umsetzen, weil wir uns nochnicht s
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  |20.12.2022| OK|Stefan Jesenko|
+| 1.2  |20.12.2022| OK|Stefan Jesenko|
+| 2.1  |20.12.2022| OK|Stefan Jesenko|
+| 3.1  |20.12.2022| OK|Stefan Jesenko|
+| 3.2  |20.12.2022|NOK|Stefan Jesenko|
+| 3.3  |20.12.2022|NOK|Stefan Jesenko|
+| 4.1  |20.12.2022|NOK|Stefan Jesenko|
+| 4.2  |20.12.2022|NOK|Stefan Jesenko|
+| 5.1  |20.12.2022|NOK|Stefan Jesenko|
+| 5.2  |20.12.2022|NOK|Stefan Jesenko|
+| 6.1  |20.12.2022|NOK|Stefan Jesenko|
+| 6.2  |20.12.2022|NOK|Stefan Jesenko|
+| 7.1  |20.12.2022|NOK|Stefan Jesenko|
+| 7.2  |20.12.2022|NOK|Stefan Jesenko|
+| 7.3  |20.12.2022|NOK|Stefan Jesenko|
+| 8.1  |20.12.2022|NOK|Stefan Jesenko|
+| 8.2  |20.12.2022|NOK|Stefan Jesenko|
+| 8.3  |20.12.2022|NOK|Stefan Jesenko|
+| 9.1  |20.12.2022|NOK|Stefan Jesenko|
+| 9.2  |20.12.2022|NOK|Stefan Jesenko|
+|10.1  |20.12.2022|NOK|Stefan Jesenko|
+|11.1  |20.12.2022| OK|Stefan Jesenko|
+|12.1  |20.12.2022| OK|Stefan Jesenko|
+|13.1  |20.12.2022|NOK|Stefan Jesenko|
+|14.1  |20.12.2022| OK|Stefan Jesenko|
+|15.1  |20.12.2022| OK|Stefan Jesenko|
+|16.1  |20.12.2022|NOK|Stefan Jesenko|
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
