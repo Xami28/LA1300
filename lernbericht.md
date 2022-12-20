@@ -32,7 +32,9 @@ this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyup);
 ```
 _Damit dies jedoch funktioniert, muss zuerst noch ein Event in WinForms erstellt werden._
 
-![image] (Dinosaurier Spiel - v.1.0.0 - Level 01 2022-12-20 10-04-09.mp4)
+![image](Dinosaurier Spiel - v.1.0.0 - Level 01 2022-12-20 10-04-09.mp4)
+
+_Wie man im Video sehen kann, wird, sobald eine Taste gedrückt wird, der Dino nun nach rechts oder links bewegt oder springt._
 
 ## Verifikation
 
