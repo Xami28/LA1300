@@ -6,16 +6,16 @@ Chocolate(Jesenko, Lucena, von Rogall, Marku, Greub)
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|27.11.2022| 0.0.1|Heute haben wir den ersten Teil unserer Projektdokumentation geschrieben und ein Usecase Diagramm erstellt.|
-|29.11.2022| 0.3.0| Wir haben mit dem Programmieren gestartet. Wir haben den Startbildschirm und eine Spielfigur die wir bewegen können programmiert.|
-|06.12.2022| 0.7.0|Heute haben wir zuerst platformen erstellt auf die die Spielfigur springen kann, danach haben wir noch mehrere Level hinzugefügt.|
-|13.12.2022| 1.0.0|Heute haben wir an unserer Presentation gearbeitet und das Spiel Graphisch noch schöner gemacht.|
+|27.11.2022| 0.0.1|Heute haben wir den ersten Teil unserer Projektdokumentation geschrieben und ein Use case Diagramm erstellt.|
+|29.11.2022| 0.3.0| Wir haben mit dem Programmieren gestartet. Wir haben den Startbildschirm und eine Spielfigur, die wir bewegen können, programmiert.|
+|06.12.2022| 0.7.0|Heute haben wir zuerst Plattformen erstellt, auf die die Spielfigur springen kann, danach haben wir noch mehrere Level hinzugefügt.|
+|13.12.2022| 1.0.0|Heute haben wir an unserer Präsentation gearbeitet und das Spiel grafisch noch schöner gemacht.|
 
 ## 1 Informieren
 
 ### 1.1 Ihr Projekt
 
-Wir erstellen ein kleines Spiel in dem man über Hindernisse springen muss.
+Wir erstellen ein kleines Spiel, in dem man über Hindernisse springen muss.
 
 ### 1.2 User Stories
 
@@ -32,11 +32,11 @@ Wir erstellen ein kleines Spiel in dem man über Hindernisse springen muss.
 | 9    |kann             |Qualität  |Als User möchte ich das Spiel schwerer wird desto weiter ich komme.|
 | 10   |kann             |Qualität  |Als User möchte ich am Anfang einen Schwierigkeitsgrad aussuchen können, damit ich sofort eine Herausforderung haben kann|
 | 11   |kann             |Qualität  |Als User möchte ich am Anfang einen Bildschirm, bei dem ich verschiedene Auswahlmöglichkeiten habe wie Spielen, Optionen, Steuerung und Zurück, damit ich auch noch mehr über das Spiel herausfinden kann und weil ich das schöner finde.
-| 12   |kann             |Qualität  |Als User möchte ich das es mehrere Level gibt, weil ich das als User bevorzuge|
-| 13   |kann             |Qualität  |Als User möchte ich das ich wenn ich auf "Controls" drücke, dass mir die Steuerung des Spiels angezeigt wird, damit ich weiss welche Knöpfe ich drücken muss um den Spieler zu bewegen.|
-| 14   |kann             |Qualität  |Als User möchte ich wenn ich auf "Options" drücke das ich wählen kann wie ich heisse und wie ich das Spielfenster einstellen will.|
-| 15   |kann             |Qualität  |Als User möchte ich das wenn ich auf "Exit" drücke, dass sich dann das spiel schliesst damit ich eine schönere option habe das Spiel zu schliessen.|
-| 16   |kann             |Qualität  |Als User möchte ich das wenn ich auf "Credits" drücke, dass mir die Credits angezeigt werden damit ich das Team sehen kann das dieses Spiel entwickelt hat.|
+| 12   |kann             |Qualität  |Als User möchte ich, dass es mehrere Level gibt, weil ich das als User bevorzuge|
+| 13   |kann             |Qualität  |Als User möchte ich, dass ich, wenn ich auf "Controls" drücke, dass mir die Steuerung des Spiels angezeigt wird, damit ich weiss welche Knöpfe ich drücken muss, um den Spieler zu bewegen.|
+| 14   |kann             |Qualität  |Als User möchte ich, wenn ich auf "Options" drücke, dass ich wählen kann wie ich heisse und wie ich das Spielfenster einstellen will.|
+| 15   |kann             |Qualität  |Als User möchte ich das, wenn ich auf "Exit" drücke, dass sich dann das Spiel schliesst, damit ich eine schönere Option habe das, Spiel zu schliessen.|
+| 16   |kann             |Qualität  |Als User möchte ich das, wenn ich auf "Credits" drücke, dass mir die Credits angezeigt werden damit, ich das Team sehen kann, das dieses Spiel entwickelt hat.|
 
 
 
@@ -51,7 +51,7 @@ Wir erstellen ein kleines Spiel in dem man über Hindernisse springen muss.
 | 2.1  |   Spiel gestartet     |    Auf "Jump" drücken     |  Charakter springt   |
 | 3.1  |   Spiel gestartet     |    Auf "Play" drücken     |  Objekte erscheinen  |
 | 3.2  |   Spiel gestartet     |    Auf "Play" drücken     |  Die Objekte bewegen sich von links nach rechts      |
-| 3.3  |   Speil gestartet     |    Auf "Play" drücken     |  Für jedes übersprungene Objekt erhöht sich der Score um 1 |
+| 3.3  |   Spiel gestartet     |    Auf "Play" drücken     |  Für jedes übersprungene Objekt erhöht sich der Score um 1 |
 | 4.1  |   Spiel gestartet, Objekte erschienen    |   Spieler berührt ein Objekt    |    Score wird zurückgesetzt       |
 | 4.2  |   Spiel gestartet, Objekte erschienen    |   Spieler berührt ein Objekt    |    "Game Over" Screen erscheint   |
 | 5.1  |   Spiel gestartet, Objekte erschienen    |   Spieler überspringt das 5. Objekt   |  Es erscheinen nun immer mehr Objekte  |
@@ -60,19 +60,19 @@ Wir erstellen ein kleines Spiel in dem man über Hindernisse springen muss.
 | 6.2  |   Spiel gestartet, Objekte erschienen    |   Spieler springt über Objekte  |   Die Punktzahl erhöht sich  |
 | 7.1  |   Spiel gestartet, Objekte erschienen, mehr übersprungene Objekte als der aktuelle Highscore    |   Spieler berührt ein Objekt    |   Neuer Highscore wird angezeigt   |
 | 7.2  |   Spiel gestartet, Objekte erschienen, weniger übersprungene Objekte als der aktuelle Highscore    |   Spieler berührt ein Objekt    |   Kein neuer Highscore wird abgespeichert   |
-|7.3   |  Spiel gestartet, Objekte erschienen| Spieler berührt Objekt| drei Top Scores werden angezeigt. |
+|7.3   |  Spiel gestartet, Objekte erschienen| Spieler berührt Objekt| drei Top-Scores werden angezeigt. |
 | 8.1 |    Programm gestartet   |   Auf "Play" drücken     |  Eingabe für den Namen öffnet sich |
 | 8.2 |    Spiel gestartet, Objekte erschienen    |   Spieler berührt ein Objekt    |    Die erreichte Punktzahl wird neben dem zuvor eingegebenen Namen angezeigt  |
 | 8.3 |    Spiel gestartet, Objekte erschienen, mehr übersprungene Objekte als der aktuelle Highscore   |   Spieler berührt ein Objekt    |   Der Highscore wird neben dem Namen der Person eingetragen    |
 | 9.1 |    Spiel gestartet, Objekte erschienen    |   Spieler überspringt das 10. Objekt  |  Geschwindigkeit der Objekte wird erhöht      |
 | 9.2 |    Spiel gestartet, Objekte erschienen    |   Spieler überspringt das 20. Objekt  |  Geschwindigkeit der Objekte wird erneut erhöht    |
-|10.1 |   Programm gestartet, Auf "Play" gedrückt  |  Name wird eingegeben  | Fenster öffnet sich, indem zwischen den verschiedenen Schwierigkeitsgraden ausgesucht werden kann. |
+|10.1 |   Programm gestartet, auf "Play" gedrückt  |  Name wird eingegeben  | Fenster öffnet sich, indem zwischen den verschiedenen Schwierigkeitsgraden ausgesucht werden kann. |
 |11.1 |Programm wurde gestartet |" "| Fenster mit verschiedenen Optionen wird angezeigt.|
-|12.1 |Im Startfenster wurde auf "Play" gedrückt|" "| Fenster mit der Level auswahl wird angezeigt.|
-|13.1 |Startfenster wurde geöfnet|Auf "Controls" gedrückt| Fenster mit der Steuerung des Spiels wird angezeigt.|
-|14.1 |Startfenster wurde geöfnet|Auf "Options" gedrückt| Fenster mit Namenseingabe und Spielfenster einstellung wird angezeigt.|
-|15.1 |Startfenster wurde geöfnet|Auf "Exit" gedrückt| Spiel wird beendet.|
-|16.1 |Startfenster wurde geöfnet|Auf "Credits" gedrückt| Fenster mit den Entwicklern wird angezeigt.|
+|12.1 |Im Startfenster wurde auf "Play" gedrückt|" "| Fenster mit der Levelauswahl wird angezeigt.|
+|13.1 |Startfenster wurde geöffnet|Auf "Controls" gedrückt| Fenster mit der Steuerung des Spiels wird angezeigt.|
+|14.1 |Startfenster wurde geöffnet|Auf "Options" gedrückt| Fenster mit Namenseingabe und Spielfenster Einstellung wird angezeigt.|
+|15.1 |Startfenster wurde geöffnet|Auf "Exit" gedrückt| Spiel wird beendet.|
+|16.1 |Startfenster wurde geöffnet|Auf "Credits" gedrückt| Fenster mit den Entwicklern wird angezeigt.|
 
 
 
@@ -106,7 +106,7 @@ Wir erstellen ein kleines Spiel in dem man über Hindernisse springen muss.
 
 ## 3 Entscheiden
 
-Wir haben uns dazu entschieden das man in unserem spiel durch ein Labürint hindurch springen muss, deswegen passen nicht mehr alle userstorys zu unserem Programm.
+Wir haben uns dazu entschieden, dass man in unserem Spiel durch ein Labyrinth hindurch springen muss, deswegen passen nicht mehr alle userstorys zu unserem Programm.
 
 ## 4 Realisieren
 
@@ -160,7 +160,7 @@ Wir haben uns dazu entschieden das man in unserem spiel durch ein Labürint hind
 |15.1  |20.12.2022| OK|Stefan Jesenko|
 |16.1  |20.12.2022|NOK|Stefan Jesenko|
 
-Das Fazit zum Testprotokoll ist, dass es zwar viele Testfälle gibt die nicht funktionieren, dies ist aber nicht relevant, weil viele davon Testfälle für die alte version unseres Spiels sind und das Spielerlebniss nicht beeinträchtigt wird das Spiel ist Spielbar und Funktioniert. Das einzige was nicht Funktioniert sind kleine Qualitätsfunktionen.
+Das Fazit zum Testprotokoll ist, dass es zwar viele Testfälle gibt, die nicht funktionieren, dies ist aber nicht relevant, weil viele davon Testfälle für die alte Version unseres Spiels sind und das Spielerlebnis nicht beeinträchtigt wird, das Spiel ist spielbar und funktioniert. Das einzige, was nicht funktioniert sind kleine Qualitätsfunktionen.
 
 
 ## 6 Auswerten
