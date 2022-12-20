@@ -155,10 +155,10 @@ Wir haben uns dazu entschieden, dass man in unserem Spiel durch ein Labyrinth hi
 |10.1  |20.12.2022|NOK|Stefan Jesenko|
 |11.1  |20.12.2022| OK|Stefan Jesenko|
 |12.1  |20.12.2022| OK|Stefan Jesenko|
-|13.1  |20.12.2022|NOK|Stefan Jesenko|
+|13.1  |20.12.2022| OK|Stefan Jesenko|
 |14.1  |20.12.2022| OK|Stefan Jesenko|
 |15.1  |20.12.2022| OK|Stefan Jesenko|
-|16.1  |20.12.2022|NOK|Stefan Jesenko|
+|16.1  |20.12.2022| OK|Stefan Jesenko|
 
 Das Fazit zum Testprotokoll ist, dass es zwar viele Testfälle gibt, die nicht funktionieren, dies ist aber nicht relevant, weil viele davon Testfälle für die alte Version unseres Spiels sind und das Spielerlebnis nicht beeinträchtigt wird, das Spiel ist spielbar und funktioniert. Das einzige, was nicht funktioniert sind kleine Qualitätsfunktionen.
 
