@@ -19,13 +19,12 @@ private void keydown(object sender, KeyEventArgs e)
         
 private void keyup(object sender, KeyEventArgs e)
         {
-            label2.Text = "Input: " + Convert.ToString(e.KeyCode);
             if (e.KeyCode == Keys.Space) { jump = false; onground = false; airtime = false; }
             if (e.KeyCode == Keys.A) { left = false; }
             if (e.KeyCode == Keys.D) { right = false; }
         }
 ```
-_Sobald nun die Leertaste gedrückt wird, wird unter anderem die Variable `jump` auf `true` gesetzt, so dass ein Sprung ausgeführt werden kann. Wenn die Taste losgelassen wird, wird `jump` wieder auf `false` gesetzt. Das selbe passiert mit den Tasten `a` und `d`._
+_Sobald nun die Leertaste gedrückt wird, wird wenn `onground` auf `true` ist `jump` auch auf `true` gesetzt, so dass ein Sprung ausgeführt werden kann. Wenn die Taste losgelassen wird, wird `jump` wieder auf `false` gesetzt. Das selbe passiert mit den Tasten `a` und `d`._
 
 ```C#
 this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keydown);
@@ -33,6 +32,7 @@ this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyup);
 ```
 _Damit dies jedoch funktioniert, muss zuerst noch ein Event in WinForms erstellt werden._
 
+![image](Dinosaurier Spiel - v.1.0.0 - Level 01 2022-12-20 10-04-09.mp4)
 
 ## Verifikation
 
@@ -53,6 +53,5 @@ _Damit dies jedoch funktioniert, muss zuerst noch ein Event in WinForms erstellt
 **Was nicht gut an unserer Arbeit lief:**
 * Auch wenn wir zuerst Gedanken darüber gemacht haben, was das Konzept unseres Projektes sein sollte, haben wir während der Umsetzung gemerkt, dass das Spiel sich immer mehr in eine etwas andere Richtung bewegt, was sich auch anhand der Projektdokumentation bemerkbar gemacht hat.
 
-**VBV**: 
-
+**VBV**: Sich zum Beginn des Projektes eine klare Struktur des Projektes ausdenken, so dass alle schon am Anfang ein klares Bild vom Projekt haben und so zum Ende des Projektes ein Programm geschaffen wird, welches den ursprünglichen Ansprüchen entspricht.
 
