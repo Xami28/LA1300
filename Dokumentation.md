@@ -165,5 +165,5 @@ Das Fazit zum Testprotokoll ist, dass es zwar viele Testfälle gibt, die nicht f
 
 ## 6 Auswerten
 
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
+[Hier](lernbericht.md) ist unser Lern-Bericht.
 
